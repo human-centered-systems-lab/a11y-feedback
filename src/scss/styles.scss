@@ -1,0 +1,124 @@
+@import "bootstrap/scss/bootstrap";
+
+:root {
+  --primary: #0076c6;
+  --secondary: #333333;
+  --error: #ce0606;
+  --success: #009070;
+  --white: #ffffff;
+}
+
+body {
+  background-color: #f4f7ff;
+}
+
+img {
+  width: 150px !important;
+  float: right;
+  margin-right: 30px;
+}
+
+.intro-headline {
+  color: white;
+}
+
+.intro-text {
+  color: white;
+  hyphens: auto;
+  @include media-breakpoint-up(xl) {
+    margin-right: 40%;
+
+  }
+}
+
+.intro-list {
+  color: white;
+  hyphens: auto;
+  @include media-breakpoint-up(xl) {
+    margin-right: 40%;
+  }
+}
+
+.rectangle-intro {
+  width: 100%;
+  background-color: #2d5dff;
+  padding: 20px 20px 50px 20px;
+
+  @include media-breakpoint-up(xl) {
+    width: 50% !important;
+    height: auto;
+    padding: 20px 0 30px 30px !important;
+    position: relative;
+  }
+}
+
+.rectangle-formular {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  margin-top: -30px;
+
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    width: 60% !important;
+    max-width: 1000px;
+    margin: -400px 0 50px 450px !important;
+  }
+}
+
+button {
+  height: 48px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.legend {
+  overflow: hidden;
+  height: 1px;
+  position: absolute;
+}
+
+.form-check-label, .form-check-input {
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #7df481;
+  color: black;
+  padding: 20px;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+.message-color-success {
+  color: #051b08;
+}
+
+.message-color-warning {
+  color: #221c03;
+}
+
+.linkImpressum {
+  float: right;
+}
+
+footer {
+  margin-top: 40px;
+}
