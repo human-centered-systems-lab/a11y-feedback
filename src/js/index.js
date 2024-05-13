@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import '../scss/styles.scss';
-import img from '../assets/inovex_logo.png';
+import img from '../assets/company_logo.png';
 import test from '../data-protection.html';
 
 const submitButton = document.getElementById("submit-button");
@@ -8,7 +8,7 @@ const isCopyDesiredCheckbox = document.getElementById('checkEmail');
 
 const dataProtectionLink = document.getElementById("linkDataProtection");
 dataProtectionLink.addEventListener("focus", function (e) {
-    dataProtectionLink.ariaLabel = "Datenschutzerklärung. Diese wird in einem separaten Tab geöffnet.";
+    dataProtectionLink.ariaLabel = "Data Security Notice. This will be opened in a seperate tab."; // German: Datenschutzerklärung. Diese wird in einem separaten Tab geöffnet.
 });
 
 dataProtectionLink.addEventListener("blur", function (e) {
@@ -32,7 +32,7 @@ isCopyDesiredCheckbox.addEventListener("click", function () {
     const emailHint = document.getElementById('emailHint');
     if (isCopyDesiredCheckbox.checked) {
         email.required = true;
-        email.ariaLabel = "Du möchtest eine Kopie erhalten, bitte gebe dazu eine E-Mail an.";
+        email.ariaLabel = "You want to receive a copy? Please provide your E-Mail."; // German: Du möchtest eine Kopie erhalten, bitte gebe dazu eine E-Mail an.
         emailHint.hidden = false;
     } else {
         email.required = false;
@@ -123,10 +123,10 @@ submitButton.addEventListener("click", async function (event) {
         });
 
         if (response.status === 201) {
-            appendAlert('Vielen Dank! Dein Feedback wurde erfolgreich abgesendet. Du kannst diese Seite jetzt schließen.', 'success');
+            appendAlert('Thank you! Your feedback was succesfully send. You can close this page now.', 'success'); // German: Vielen Dank! Dein Feedback wurde erfolgreich abgesendet. Du kannst diese Seite jetzt schließen.
             form.reset();
         } else {
-            appendAlert('Ups, etwas ist schief gegangen. Versuche es später noch einmal.', 'warning');
+            appendAlert('Oops, something went wrong. Please try again later.', 'warning'); // German: Ups, etwas ist schief gegangen. Versuche es später noch einmal.
         }
     }
 });
