@@ -1,138 +1,138 @@
 <!doctype html>
-<html lang="de">
+<html lang="en"> <!-- German: "de" -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Feedback zur Barrierefreiheit</title>
+    <title>Accessibility Feedback</title> <!-- German: Feedback zur Barrierefreiheit -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <script src="js/index.js"></script>
 </head>
 <body>
 <header>
-    <a href="#form" class="skip">Springe direkt zum Formular</a>
+    <a href="#form" class="skip">Jump to Form</a> <!-- German: Springe direkt zum Formular -->
 </header>
 <div class="py-lg-5 container-xxl">
     <div class="rectangle-intro">
-        <img src="inovex_logo.png" id="image" alt="Logo von inovex">
+        <img src="company_logo.png" id="image" alt="Logo of [Company Name]">
 
         <br aria-hidden="true"/>
-        <h2 class="intro-headline">Feedback Formular</h2>
+        <h2 class="intro-headline">Feedback Form</h2> <!-- German: Feedback Formular -->
         <p class="intro-text">
-            Verwende dieses Formular, um uns Feedback zur Barrierefreiheit unserer Webseite zu
-            geben. Sag uns, was Dir gefällt und was nicht. </p>
-        <p class="intro-text">Damit wir Dir schnell helfen können, denke bitte an Folgendes:</p>
+            Use this form to give us accessibility feedback on our website. Tell us what you like and what do not like.
+        </p> <!-- German: Verwende dieses Formular, um uns Feedback zur Barrierefreiheit unserer Webseite zu geben. Sag uns, was Dir gefällt und was nicht. -->
+        <p class="intro-text">To help us provide fast help, please:</p> <!-- German: Damit wir Dir schnell helfen können, denke bitte an Folgendes:"
         <ul class="intro-list">
-            <li>Beschreibe Dein Anliegen genau.</li>
-            <li>Beschreibe ggf. Deine verwendeten Hilfsmittel und Anpassungen an Deinem Endgerät.</li>
-            <li>Sag uns, wann und wo das Problem auftrat.</li>
-            <li>Wenn Du Ideen zur Verbesserung hast, teile sie gerne mit uns.</li>
+            <li>describe your issue clearly.</li> <!-- German: Beschreibe Dein Anliegen genau. -->
+            <li>describe assisitive technology if used, and modifications of your system.</li> <!-- German: Beschreibe ggf. Deine verwendeten Hilfsmittel und Anpassungen an Deinem Endgerät. -->
+            <li>tell us where and when the problem occured.</li> <!-- German: Sag uns, wann und wo das Problem auftrat -->
+            <li>if you have suggestions for improvement, provide them.</li> <!-- German: Wenn Du Ideen zur Verbesserung hast, teile sie gerne mit uns -->
         </ul>
-        <p class="intro-text">So können wir Deine Situation besser verstehen und das
-            Problem nachvollziehen.</p>
+        <p class="intro-text">This helps us to understand your situation and problem better.</p> <!-- German: So können wir Deine Situation besser verstehen und das Problem nachvollziehen. -->
     </div>
 
     <div class="rectangle-formular">
-        <h1>Gebe hier Dein Feedback ab!</h1>
+        <h1>Provide your Feedback here!</h1> <!-- German: Gebe hier Dein Feedback ab!-->
 
-        <p> Pflichtfelder sind mit einem Sternchen (*) gekennzeichnet.</p>
+        <p> Mandatory fields are marked with (*).</p> <!-- German: Pflichtfelder sind mit einem Sternchen (*) gekennzeichnet. -->
         <form id="form">
-            <h2>Hilfsmittel und Anpassungen</h2>
-            <p>Bitte wähle die Hilfsmittel oder Anpassungen aus, die Du benutzt hast, als das Problem aufgetreten ist.
-                Du kannst mehrere Optionen auswählen.</p>
+            <h2>Assistive Systems and Adaptations</h2> <!-- German: Hilfsmittel und Anpassungen ->
+            <p>Please choose assisitive systems and adaptations that you used while encountering problems.
+                You can choose multiple ones.</p> <!-- German: Bitte wähle die Hilfsmittel oder Anpassungen aus, die Du benutzt hast, als das Problem aufgetreten ist.
+                Du kannst mehrere Optionen auswählen.-->
             <fieldset>
-                <legend class="legend">Auswahl an Hilfsmittel und Anpassungen</legend>
+                <legend class="legend">Choice of Assistive Systems and Adaptations</legend> <!-- German: Auswahl an Hilfsmittel und Anpassungen-->
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="noTool">
                     <label class="form-check-label" for="noTool">
-                        Keine
+                        None <!-- German: Keine -->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="screenreader">
                     <label class="form-check-label" for="screenreader">
-                        Screenreader oder Sprachausgabe-Software
+                        Screenreader <!-- German: Screenreader oder Sprachausgabe-Software-->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="zoom">
                     <label class="form-check-label" for="zoom">
-                        Bildschirmvergrößerung
+                        Screen Magnifier <!-- German: Bildschirmvergrößerung-->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="braille">
                     <label class="form-check-label" for="braille">
-                        Braille-Schrift oder Braille-Displays
+                        Braille-Font or Braille-Displays <!-- German: Braille-Schrift oder Braille-Displays -->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="speak">
                     <label class="form-check-label" for="speak">
-                        Sprachsteuerung
+                        Voice Control <!-- German: Sprachsteuerung-->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="darkmode">
                     <label class="form-check-label" for="darkmode">
-                        Browser oder PC Einstellungen z.B. Dark Mode oder Schriftgröße
+                        Browser or PC Settings e.g. Dark Mode or Fontsize <!-- German: Browser oder PC Einstellungen z.B. Dark Mode oder Schriftgröße -->
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="other">
                     <label class="form-check-label" for="other">
-                        Sonstiges
+                        Others <!-- German: Sonstiges-->
                     </label>
                 </div>
             </fieldset>
-            <p>Beschreibe im folgenden Textfeld bitte genauer, welche Hilfsmittel oder Anpassungen Du verwendet hast, als das Problem auftrat.
+            <p>Please provide which assisitive technologies or adaptations you used while having issues. For example use of Screenreader or spezific zoom settings.</p> <!-- German: Beschreibe im folgenden Textfeld bitte genauer, welche Hilfsmittel oder Anpassungen Du verwendet hast, als das Problem auftrat.
                 Zum Beispiel, welche Sprachausgabensoftware Du genutzt hast oder Vergrößerungsstufe (z.B. 400 %) Du
-                verwendet hast.</p>
+                verwendet hast. -->
 
             <div class="mb-3">
-                <label for="textFieldTools" class="form-label">Beschreibung der Hilfsmittel und
-                    Anpassungen</label>
+                <label for="textFieldTools" class="form-label">Description of Assistive Systems and Adaptations</label> <!-- German: Beschreibung der Hilfsmittel und
+                    Anpassungen-->
                 <textarea class="form-control" id="textFieldTools" rows="3"></textarea>
             </div>
-            <h3>Browser und Betriebssystem</h3>
+            <h3>Browser and Operating System</h3> <!-- German: Browser und Betriebssystem -->
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="checkData">
                 <label class="form-check-label" for="checkData">
-                    Ich möchte die Informationen welchen Browser und welches Betriebssystem ich nutze automatisch
+                    I want to share the information which browser and operating system I am using automatically, to make my barrieres better understandable. No personal data will be tracked. <!-- German: Ich möchte die Informationen welchen Browser und welches Betriebssystem ich nutze automatisch
                     mitsenden, damit meine gemeldete Barriere besser nachvollzogen werden kann. Es werden keine
-                    personenbezogenen Daten erhoben.
+                    personenbezogenen Daten erhoben. -->
                 </label>
             </div>
-            <h2>Beschreibung des Problems</h2>
+            <h2>Problem Description</h2> <!-- German: Beschreibung des Problems -->
             <div class="mb-3">
-                <label for="subject" class="form-label">Betreff</label>
+                <label for="subject" class="form-label">Topic</label> <!-- German: Betreff -->
                 <textarea class="form-control" id="subject" rows="1"></textarea>
             </div>
-            <p>Hilfestellung, was in der Beschreibung enthalten sein sollte:
+            <p>Help, on what should be in the description: <!-- German: Hilfestellung, was in der Beschreibung enthalten sein sollte: -->
             <ul>
-                <li>Falls noch nicht geschehen, ggf. Beschreibung der Hilfsmittel und Anpassungen.</li>
-                <li>Die Handlung als das Problem auftrat.</li>
-                <li>Was ist das Problem und warum?</li>
-                <li>Die Seite, auf der das Problem aufgetreten ist (URL oder Beschreibung der Seite).</li>
-                <li>Gerne auch einen Verbesserungsvorschlag.</li>
+                <li>If not already provided, used assisstive technology and adaptations.</li> <!-- German: Falls noch nicht geschehen, ggf. Beschreibung der Hilfsmittel und Anpassungen.-->
+                <li>Steps that produced the problem.</li> <!-- German: Die Handlung als das Problem auftrat. -->
+                <li>What is the problem and why?</li> <!-- German: Was ist das Problem und warum? -->
+                <li>The page, where it happend (URL or Site Description).</li> <!-- German: Die Seite, auf der das Problem aufgetreten ist (URL oder Beschreibung der Seite). -->
+                <li>With pleasure, suggetions on solutions.</li> <!-- German: Gerne auch einen Verbesserungsvorschlag. -->
             </ul>
             </p>
             <div class="mb-3">
-                <label for="feedbackTextField" class="form-label">Beschreibung des Problems *</label>
+                <label for="feedbackTextField" class="form-label">Problem description *</label> <!-- German: Beschreibung des Problems-->
                 <textarea class="form-control" id="feedbackTextField" rows="3"
                           aria-required="true" required></textarea>
             </div>
-<h3>Datei</h3>
+<h3>Files</h3> <!-- German: Datei -->
             <div class="mb-3">
-                <label for="formFile" class="form-label">Hier kannst du eine Datei anhängen, zum Beispiel den Text der
-                    Sprachausgabe oder einen Screenshot.</label>
+                <label for="formFile" class="form-label">Here you can provide files. For example audiorecordings from screen readers or screenshots.</label>  <!-- German: Hier kannst du eine Datei anhängen, zum Beispiel den Text der
+                    Sprachausgabe oder einen Screenshot. -->
                 <input class="form-control" type="file" id="formFile">
             </div>
 
-            <h2>Kontaktdaten</h2>
-            <p>Du kannst hier Deine Kontaktdaten optional angeben, damit wir Dich bei Rückfragen kontaktieren
+            <h2>Contactdata</h2> <!-- German: Kontaktdaten-->
+            <p>You can provide your contact data optionaly, to make it possible for us to contact you. <br aria-hidden="true"> Additionally we can keep you up to date on the issue.</p> <!-- German: Du kannst hier Deine Kontaktdaten optional angeben, damit wir Dich bei Rückfragen kontaktieren
                 können. <br aria-hidden="true"> Außerdem werden wir Dich über den Fortschritt der Bearbeitung auf dem
-                Laufenden halten.</p>
+                Laufenden halten.</p> -->
             <div class="mb-3">
                 <label for="inputName" class="form-label">Name</label>
                 <input type="text" class="form-control" id="inputName">
@@ -142,38 +142,40 @@
                 <label for="emailInput" class="form-label">E-Mail</label>
                 <input type="email" class="form-control" id="emailInput">
                 <div id="emailHint" class="form-text" aria-describedby="emailInput" hidden="true">
-                    Du möchtest eine Kopie erhalten, gebe dazu eine E-Mail an.
+                    You want to receive a copy of this? Please provide a e-mail. <!-- German: Du möchtest eine Kopie erhalten, gebe dazu eine E-Mail an.-->
                 </div>
             </div>
             <div class="mb-3">
-                <label for="phoneInput" class="form-label">Telefonnummer</label>
+                <label for="phoneInput" class="form-label">Telefonnumber</label> <!-- German: Telefonnummer-->
                 <input type="number" class="form-control" id="phoneInput">
             </div>
 
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="checkEmail">
                 <label class="form-check-label" for="checkEmail">
-                    Ich möchte eine Kopie des ausgefüllten Formulars an meine E-Mail-Adresse gesendet bekommen.
+                    I want to receive a copy to my provided e-mail. <!-- German: Ich möchte eine Kopie des ausgefüllten Formulars an meine E-Mail-Adresse gesendet bekommen. -->
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="checkDataProtection" aria-required="true" required>
                 <label class="form-check-label" for="checkDataProtection">
-                    Ich habe die <a href="data-protection.html" target="_blank" id="linkDataProtection">Datenschutzerklärung</a>
-                    zur Kenntnis genommen. *
+                    I've read the <a href="data-protection.html" target="_blank" id="linkDataProtection">Data Security Notice</a>
+                    and acknowledge it. * <!-- German: Ich habe die <a href="data-protection.html" target="_blank" id="linkDataProtection">Datenschutzerklärung</a>
+                    zur Kenntnis genommen. * -->
                 </label>
             </div>
 
             <div id="liveAlertPlaceholder"></div>
 
-            <button id="submit-button" type="submit" class="btn btn-primary" action="google.com">Absenden</button>
+            <button id="submit-button" type="submit" class="btn btn-primary" action="google.com">Send</button> <!-- German: Absenden -->
         </form>
         <footer>
-            <p>Bei Rückfragen oder Problemen kannst Du eine <a href="mailto:kathrin.fausel@student.kit.edu">E-Mail</a>
-                senden.</p>
-            <a href="https://www.kit.edu/impressum.php" target="_blank" class="linkImpressum"
-               aria-label="Impressum. Externer Link. Impressum öffnet sich in einem separatem Tab.">Impressum <i
-                    class="bi bi-box-arrow-up-right"></i></a>
+            <p>For questions or to report problems with the tool you can write a <a href="mailto:yourmail@something.com">E-Mail</a>
+                </p> <!-- German: Bei Rückfragen oder Problemen kannst Du eine <a href="mailto:yourmail@something.com">E-Mail</a>
+                senden. -->
+            <a href="https://www.something.com/impressum.php" target="_blank" class="linkImpressum"
+               aria-label="Impress. External Link. Impress will open in a separate tab.">Impress <i
+                    class="bi bi-box-arrow-up-right"></i></a> <!-- German: aria-label="Impressum. Externer Link. Impressum öffnet sich in einem separatem Tab.">Impressum  -->
         </footer>
     </div>
 
