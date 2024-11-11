@@ -53,7 +53,7 @@ ATTENTION: Please be sure to modify the data security information, contact mails
 
 Adrian Wegener, Kathrin Fausel, Saskia Haug, and Alexander Maedche. 2024. A Universal Web Accessibility Feedback Form: A Participatory Design Study.
 In Proceedings of May 13–14, 2024 (W4A’24). ACM, New York, NY, USA, 12 page
-Note: DOI is still pending.
+[https://doi.org/10.1145/3677846.3677853](https://doi.org/10.1145/3677846.3677853) 
 
 ## Showcases
 This feedback tool has already been implemented on the following sites:
