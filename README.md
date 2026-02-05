@@ -23,7 +23,7 @@ Install the dependencies using npm.
 `npm install` 
 
 ## Example Build
-In the repository folder `dist` you can find an example build for the universal feedback tool. (currently german version)
+In the repository folder `dist`, you can find an example build for the universal feedback tool. (currently German version)
 
 ## Local Execution
 
@@ -56,8 +56,5 @@ Adrian Wegener, Kathrin Fausel, Saskia Haug, and Alexander Maedche. 2024. A Univ
 In Proceedings of May 13–14, 2024 (W4A’24). ACM, New York, NY, USA, 12 page
 [https://doi.org/10.1145/3677846.3677853](https://doi.org/10.1145/3677846.3677853) 
 
-## Showcases
-This feedback tool has already been implemented on the following sites:
-- [Inovex](https://www.inovex.de/de/) (temporary)
-
-Please let us know if you want to be listed as a showcase by creating a ticket or via mail to [adrian.wegener@kit.edu](mailto:adrian.wegener@kit.edu).
+![Funding Information](AbbinderEN.png)
+More information about the funding can be founding project can be found at the following link: [https://www.digitalzentrum-fokus-mensch.de/](https://www.digitalzentrum-fokus-mensch.de/)
