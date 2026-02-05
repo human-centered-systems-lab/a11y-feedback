@@ -62,5 +62,3 @@ In: Proceedings of May 13–14, 2024 (W4A’24). ACM, New York, NY, USA, 12 Seit
 
 ![Informationen zur Finanzierung](AbbinderDE.png)
 Weitere Informationen zur Finanzierung des Projekts finden Sie unter folgendem Link: [https://www.digitalzentrum-fokus-mensch.de/](https://www.digitalzentrum-fokus-mensch.de/)
-
-Übersetzt mit DeepL.com (kostenlose Version)
