@@ -1,3 +1,5 @@
+[![Sprache: Deutsch](https://img.shields.io/badge/Sprache-Deutsch-blue)](README.de-DE.md)
+
 # Universal Web Accessibility Feedback Form
 
 
