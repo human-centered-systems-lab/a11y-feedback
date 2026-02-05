@@ -1,5 +1,5 @@
+[![Language: English](https://img.shields.io/badge/Language-English-red)](README.md)
 
-![English Version](README.md)
 
 
 # Universelles Feedback-Formular zur Barrierefreiheit im Web
